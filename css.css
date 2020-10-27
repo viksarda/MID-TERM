@@ -1,0 +1,229 @@
+/* css here */
+
+
+  p.question {
+    font-family: Arial, sans-serif;
+        font-size:20px;
+    color: #2E2E2E;
+    
+    margin-bottom:0px;
+  }
+  
+  h2.quizHeader {
+    font-family: Arial, sans-serif;
+    font-weight:normal;
+    font-size:25px;
+    line-height: 27px;
+    margin: 24px 0 12px 0;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid #a2a2a2;
+    margin-left: 18%;
+  }
+  
+  h2.quizScore{
+    font-family: Arial, sans-serif;
+    font-size:25px;
+    margin-left: 30%;
+  }
+  
+  div.quizAnswers{
+    font-family: Arial, sans-serif;
+    font-size:16px;
+    color: #424242;
+    padding: 4px 0 4px 0;
+    margin-left: 30%;
+    
+  }
+  
+  label {
+    font-family: Arial, sans-serif;
+    font-size:14px;
+    color: #424242;
+    vertical-align:top;
+  }
+  
+  input.answer[type="radio"] {
+    margin-bottom: 10px;
+    
+    
+  }
+  
+  input.quizSubmit[type="submit"] {
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    -webkit-transition-delay: 0s, 0s;
+    -webkit-transition-duration: 0.2s, 0.2s;
+    -webkit-transition-property: color, background-color;
+    -webkit-transition-timing-function: ease, ease;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 5px 0px;
+    color: #ffffff;
+    background-color: #c30b0a;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    text-transform:uppercase;
+    height:35px;
+    width:200px;
+    border: 1px solid #5E5E5E;
+    border-radius:5px;
+    text-align: center;
+    margin-left: 500%;
+
+    
+    
+   }
+  
+  input.quizSubmit[type="submit"]:hover {
+    color: #ffffff;
+    background: #680f11;
+    text-decoration: none;
+    margin-left: 500%;
+  }
+  
+  table {
+    background-color: #F2F2F2;
+        border:1px solid #BDBDBD;
+    border-radius:5px;
+    align-self: right;
+    padding:10px;
+    padding-left:300px;
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
+  }
+  
+  th {
+    
+  }
+  
+  tr {
+    
+  }
+  
+  td {
+  
+  }
+  
+  .submitter {
+        width:85px;
+  }
+  
+  .hide {
+        display:none;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.slika{
+    display: block;
+    width: 1900px;
+    height: 120px;
+}
+
+.sidebar-container {
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #1a1a1a;
+    color: #fff;
+  }
+  
+  .content-container {
+    padding-top: 20px;
+  }
+  
+  .sidebar-logo {
+    padding: 10px 15px 10px 30px;
+    font-size: 20px;
+    background-color: #2574A9;
+  }
+  
+  .sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  .sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+  }
+  
+  .sidebar-navigation li .fa {
+    margin-right: 10px;
+  }
+  
+  .sidebar-navigation li a:active,
+  .sidebar-navigation li a:hover,
+  .sidebar-navigation li a:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .sidebar-navigation li::before {
+    background-color: #2574A9;
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 0;
+    top: 0;
+    -webkit-transition: width 0.2s ease-in;
+    transition: width 0.2s ease-in;
+    width: 3px;
+    z-index: -1;
+  }
+  
+  .sidebar-navigation li:hover::before {
+    width: 100%;
+  }
+  
+  .sidebar-navigation .header {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #151515;
+    padding: 10px 15px 10px 30px;
+  }
+  
+  .sidebar-navigation .header::before {
+    background-color: transparent;
+  }
+  
+  .content-container {
+    padding-left: 220px;
+  }
+
+.text1 {
+font-size: xx-large;
+}
+.text2 {
+    font-size: x-large;
+    }
+    
+    #my-text {
+        float: right;
+        margin-right: 100px;
+    }
+
+
+    #my-text {
+        float: right;
+        margin-right: 100px;
+    }
+    

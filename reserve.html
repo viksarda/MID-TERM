@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Home</title>
+</head>
+<body>
+    <embed src="header.swf" width="1200" height="300"> </embed>
+
+    <div class="sidebar-container">
+
+        <ul class="sidebar-navigation">
+          <li class="header">Reserve</li>
+          <li>
+            <a href="home.html">
+              <i class="fa fa-home" aria-hidden="true"></i> HOME
+            </a>
+          </li>
+          <li>
+            <a href="calculator.html">
+              <i class="fa fa-tachometer" aria-hidden="true"></i> Calculcator
+            </a>
+          </li>
+          <li>
+            <a href="reserve.html">
+              <i class="fa fa-tachometer" aria-hidden="true"></i> Reserve
+            </a>
+          </li>
+         
+        </ul>
+      </div>
+
+      <div style="text-align: center;">
+        <h1>Reserve</h1>
+        <br />
+        <br />
+        <br />
+        <form name="myForm" onsubmit="return validateForm()">
+            <div class="form-group positionC">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" aria-describedby="emailHelp" id="Email">
+            </div>
+            <br />
+            <div>
+              <label >Name</label>
+              <input type="text" class="form-control" id="Name">
+            </div>
+            <br />
+            <div>
+                <label >Surname</label>
+                <input type="text" class="form-control" id="Surname">
+              </div>
+              <br />
+              <div >
+                <label >ID</label>
+                <input type="number" class="form-control" id="studentID">
+              </div>
+              <br />
+            <div>
+              <input type="checkbox"  id="exampleCheck1" required>
+              <label class="form-check-label" for="exampleCheck1">agreement</label>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-primary" onclick="store()">Submit</button>
+          </form>
+    </div>
+<body>
+</html>
